@@ -3,7 +3,7 @@ let customStringCasing = "HEY THERE HOW ARE YOU DOING"
 let multipleHello = "hi, Hello , HI , hello , HELLO"
 let regexCasing = new RegExp(/hey/i)
 let regexGlobal = new RegExp(/hello/g)
-let regexGlobalCasing = new RegExp(/hi/gi)
+let regexGlobalCasing = new RegExp(/hi/, 'gi')
 
 
 
